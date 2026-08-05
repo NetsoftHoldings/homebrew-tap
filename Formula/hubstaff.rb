@@ -1,25 +1,25 @@
 class Hubstaff < Formula
   desc "Token-efficient CLI for the Hubstaff Public API v2"
   homepage "https://github.com/NetsoftHoldings/hubstaff-cli"
-  version "0.4.0"
+  version "0.5.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/NetsoftHoldings/hubstaff-cli/releases/download/v0.4.0/hubstaff-aarch64-apple-darwin.tar.xz"
-      sha256 "5122365e1986518cc6ecfdd7b89b3519e6e5da568c0b29f2779ab4ba36c0bfce"
+      url "https://github.com/NetsoftHoldings/hubstaff-cli/releases/download/v0.5.0/hubstaff-aarch64-apple-darwin.tar.xz"
+      sha256 "3b26ad5a00d98cd03a25363d9d04103365ecbf0a7688a7fdfbcbdad5044ffc6b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/NetsoftHoldings/hubstaff-cli/releases/download/v0.4.0/hubstaff-x86_64-apple-darwin.tar.xz"
-      sha256 "b68697505b2722a405e2df67d58b6fc9e07ceeb7d95f6e35add80b52720eb83d"
+      url "https://github.com/NetsoftHoldings/hubstaff-cli/releases/download/v0.5.0/hubstaff-x86_64-apple-darwin.tar.xz"
+      sha256 "17d0c21c5a9f2b35595e030483294384aae217db985e19636117d75bd7047909"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/NetsoftHoldings/hubstaff-cli/releases/download/v0.4.0/hubstaff-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "28ac228c536d4324f00f28d01d2ef01db7fd959bf5face633c82d83d520d27f5"
+      url "https://github.com/NetsoftHoldings/hubstaff-cli/releases/download/v0.5.0/hubstaff-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b14e3d0d612c1707cbf5335bbb0e86dab66c894e82f49d55ce12a05125a90b69"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/NetsoftHoldings/hubstaff-cli/releases/download/v0.4.0/hubstaff-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "cbc7a77d571095a8dd3ebeed70ccdfe7898d5733057cca806187c7f165f87236"
+      url "https://github.com/NetsoftHoldings/hubstaff-cli/releases/download/v0.5.0/hubstaff-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a15cbba3289dc52cf161142c7798e82d6a65a620a79243dfe7f22a9a0be7fe2b"
     end
   end
   license "MIT"
